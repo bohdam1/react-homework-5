@@ -1,0 +1,38 @@
+.meve_item {
+  flex: 1 1 30%; /* Елементи списку займають 30% ширини контейнера */
+  box-sizing: border-box; /* Включати рамки та відступи у ширину елементів */
+  padding: 10px; /* Внутрішні відступи для елементів списку */
+  margin: 10px; /* Зовнішні відступи для елементів списку */
+  border: 1px solid #ccc; /* Рамка для елементів списку */
+  border-radius: 5px; /* Згладжені кути */
+  background-color: #fff; /* Колір фону елементів списку */
+  transition: transform 0.3s ease, background-color 0.3s ease; /* Анімація зміни фону та трансформації */
+  text-align: center; /* Центрування тексту */
+  max-width: 300px;
+  max-height: 500px;
+}
+  
+.meve_item:hover {
+  background-color: #f0f0f0; /* Колір фону при наведенні миші */
+  transform: scale(1.05); /* Збільшення елементу при наведенні миші */
+}
+  
+.meve_item a {
+  text-decoration: none; /* Прибрати підкреслення з посилання */
+  color: inherit; /* Зберегти колір тексту */
+}
+  
+.move_img {
+  max-width: 100%; 
+  height: auto; /* Автоматичне налаштування висоти */
+  border-radius: 5px 5px 0 0; /* Згладжені кути зверху */
+}
+  
+.title {
+  font-size: 1.2rem; /* Розмір шрифту заголовку */
+  font-weight: bold; /* Жирний шрифт */
+  color: #333; /* Колір тексту заголовку */
+  margin: 10px 0 0; /* Відступи зверху та знизу */
+  padding: 10px; /* Внутрішні відступи */
+}
+  

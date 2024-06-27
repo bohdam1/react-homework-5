@@ -1,0 +1,26 @@
+/* styles.css */
+.oval_link {
+    display: inline-block;
+    padding: 10px 20px; /* Регулюйте відступи, щоб досягти бажаного розміру */
+    background-color: black;
+    color: white; /* Білий текст для контрасту */
+    text-decoration: none; /* Видалити підкреслення */
+    border-radius: 50px; /* Овальна форма */
+    font-size: 16px; /* Розмір шрифту */
+    text-align: center; /* Центрування тексту */
+    transition: background-color 0.3s; /* Плавний перехід для фону при наведенні */
+  }
+  
+.oval_link:hover {
+    background-color: darkgray; /* Колір фону при наведенні */
+}
+.oval_link:last-child{
+    margin-left: 20px;
+}
+.header {
+    background-color: #808080; /* Сірий фон */
+    padding: 20px; /* Внутрішні відступи для простору всередині хедера */
+    text-align: center; /* Вирівнювання тексту по центру */
+    color: white; /* Білий колір тексту */
+    font-size: 24px; /* Розмір шрифту */
+  }

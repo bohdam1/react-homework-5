@@ -1,0 +1,86 @@
+.movie_card {
+    display: flex;
+   
+    align-items: center;
+    
+}
+
+.section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+   
+    
+    
+    width: 800px;
+}
+
+
+.movie_img {
+    margin-right: 40px;
+    max-width: 250px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.movie_info {
+    text-align: center;
+}
+
+.movie_title {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.movie_average {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #888;
+}
+
+.movie_overview {
+    font-size: 16px;
+    color: #555;
+}
+
+
+.list_link {
+    margin-top: 40px;
+    display: flex;
+    gap: 10px;
+}
+
+.link {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 50px; /* Закруглення для овалу */
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1;
+    transition: background-color 0.3s ease;
+}
+
+.link:hover {
+    background-color: #333; /* Змінюємо колір фону при наведенні */
+}
+.link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px; /* робить посилання овальним */
+    transition: background-color 0.3s ease; /* додає плавний перехід кольору */
+    margin-bottom: 30px;
+  }
+  
+  .link:hover {
+    background-color: #333; /* змінює колір при наведенні */
+  }
+  

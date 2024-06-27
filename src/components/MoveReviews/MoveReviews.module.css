@@ -1,0 +1,29 @@
+.reviews_list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.reviews_item {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Додаємо тінь */
+    background-color: #f2f2f2; /* Заливаємо фон сірим */
+}
+
+.reviews_autor {
+    font-weight: bold;
+    color: #333;
+    font-size: 1.1em; /* Збільшуємо розмір шрифту */
+}
+
+.reviews_content {
+    margin-top: 10px;
+}
+
+.reviews_data {
+    margin-top: 8px;
+    font-style: italic;
+    color: #666;
+}

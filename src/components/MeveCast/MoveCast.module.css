@@ -1,0 +1,25 @@
+.cast_list {
+    margin-top: 40px;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cast_item {
+    text-align: center;
+    width: 200px;
+}
+
+.cast_img {
+    max-width: 150px;
+    border-radius: 12px;
+    box-shadow: 0 8px 12px rgba(0, 1, 1, 1); /* Тінь для зображення */
+}
+
+.cast_name {
+    margin-top: 10px;
+    font-weight: bold;
+}
